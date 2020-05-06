@@ -1,0 +1,68 @@
+:root {
+    --accent-color: #2196F3;
+    --basic-color: #212121;
+    --text-color: #757575;
+    --contacts-footer-color: rgba(255, 255, 255, 0.6);
+    --primary-color-white: #FFFFFF;
+    --bcg-color: #F5F4FA;
+    --footer-copiright: rgba(255, 255, 255, 0.4);
+}
+
+body {
+    background-color: var(--primary-color-white);
+    color: var(--basic-color);
+}
+
+a {
+    color: var(--basic-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--accent-color);
+}
+
+a:focus {
+    color: var(--accent-color);
+}
+
+p{
+    color: var(--text-color);
+}
+
+.header-contact{
+    color: var(--text-color);
+}
+
+h1{
+    color: var(--primary-color-white);
+}
+
+.footer-color{
+    color: var(--contacts-footer-color);
+}
+
+.copyrite{
+    color: var(--footer-copiright);
+}
+
+.footer-address{
+    color: var(--primary-color-white);
+}
+
+b{
+    color: var(--primary-color-white);
+}
+
+.button{
+    color: var(--primary-color-white);
+    background-color: var(--accent-color);
+}
+
+.button:hover{
+    color: var(--primary-color-white);
+}
+
+.button:focus{
+    color: var(--primary-color-white);
+}
