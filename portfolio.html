@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Studio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/portfolio.css">
 </head>
@@ -30,84 +31,104 @@
     </header>
     <main>
         <section>
-            <h1>Портфолио</h1>
+            <form>
+                <h1>Портфолио</h1>
+
+                <input type="radio" id="all" name="wors" value="all">
+                <label for="all">Все</label>
+
+                <input type="radio" id="web-sites" name="wors" value="web-sites">
+                <label for="web-sites">Веб-сайты</label>
+
+                <input type="radio" id="apps" name="wors" value="apps">
+                <label for="apps">Приложения</label>
+
+                <input type="radio" id="design" name="wors" value="design">
+                <label for="design">Дизайн</label>
+
+                <input type="radio" id="marketing" name="wors" value="marketing">
+                <label for="marketing">Маркетинг</label>
+            </form>
             <ul>
-                <li><a href="" class="button portfolio">Все</a></li>
-                <li><a href="" class="button portfolio">Веб-сайты</a></li>
-                <li><a href="" class="button portfolio">Приложения</a></li>
-                <li><a href="" class="button portfolio">Дизайн</a></li>
-                <li><a href="" class="button portfolio">Маркетинг</a></li>
-            </ul>
-            <ul>
-                <li><a>
+                <li>
+                    <a>
                         <img src="./images/portfolio/work1.png" alt="Технокряк">
-                        <h2>Технокряк</h2>
+                        <h2 class="project">Технокряк</h2>
                         <p class="work">Веб-сайт</p>
-                        <p>Технокряк это современная площадка распространения коронавируса. Компании используют эту
+                        <p class="project-descr">Технокряк это современная площадка распространения коронавируса.
+                            Компании используют эту
                             платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                     </a>
                 </li>
                 <li><a>
                         <img src="./images/portfolio/work2.png" width="380" alt=" Постер">
-                        <h2>Постер New Orlean vs Golden Stars</h2>
+                        <h2 class="project">Постер New Orlean vs Golden Stars</h2>
                         <p class="work">Дизайн</p>
-                        <p>Технокряк это современная площадка распространения коронавируса. Компании используют эту
+                        <p class="project-descr">Технокряк это современная площадка распространения коронавируса.
+                            Компании используют эту
                             платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                     </a>
                 </li>
                 <li><a>
                         <img src="./images/portfolio/work3.png" width="380" alt=" Seafood">
-                        <h2>Ресторан Seafood</h2>
+                        <h2 class="project">Ресторан Seafood</h2>
                         <p class="work">Приложение</p>
-                        <p>Технокряк это современная площадка распространения коронавируса. Компании используют эту
+                        <p class="project-descr">Технокряк это современная площадка распространения коронавируса.
+                            Компании используют эту
                             платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                     </a>
                 </li>
                 <li><a>
                         <img src="./images/portfolio/work4.png" width="380" alt=" Prime">
-                        <h2>Проект Prime</h2>
+                        <h2 class="project">Проект Prime</h2>
                         <p class="work">Маркетинг</p>
-                        <p>Технокряк это современная площадка распространения коронавируса. Компании используют эту
+                        <p class="project-descr">Технокряк это современная площадка распространения коронавируса.
+                            Компании используют эту
                             платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                     </a>
                 </li>
                 <li><a>
                         <img src="./images/portfolio/work5.png" width="380" alt=" Boxes">
-                        <h2>Проект Boxes</h2>
+                        <h2 class="project">Проект Boxes</h2>
                         <p class="work">Приложение</p>
-                        <p>Технокряк это современная площадка распространения коронавируса. Компании используют эту
+                        <p class="project-descr">Технокряк это современная площадка распространения коронавируса.
+                            Компании используют эту
                             платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                     </a>
                 </li>
                 <li><a>
                         <img src="./images/portfolio/work6.png" width="380" alt=" Inspiration has no Borders">
-                        <h2>Inspiration has no Borders</h2>
+                        <h2 class="project">Inspiration has no Borders</h2>
                         <p class="work">Веб-сайт</p>
-                        <p>Технокряк это современная площадка распространения коронавируса. Компании используют эту
+                        <p class="project-descr">Технокряк это современная площадка распространения коронавируса.
+                            Компании используют эту
                             платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                     </a>
                 </li>
                 <li><a>
                         <img src="./images/portfolio/work7.png" width="380" alt=" Limited Edition">
-                        <h2>Издание Limited Edition</h2>
+                        <h2 class="project">Издание Limited Edition</h2>
                         <p class="work">Дизайнт</p>
-                        <p>Технокряк это современная площадка распространения коронавируса. Компании используют эту
+                        <p class="project-descr">Технокряк это современная площадка распространения коронавируса.
+                            Компании используют эту
                             платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                     </a>
                 </li>
                 <li><a>
                         <img src="./images/portfolio/work8.png" width="380" alt=" LAB">
-                        <h2>Проект LAB</h2>
+                        <h2 class="project">Проект LAB</h2>
                         <p class="work">Маркетинг</p>
-                        <p>Технокряк это современная площадка распространения коронавируса. Компании используют эту
+                        <p class="project-descr">Технокряк это современная площадка распространения коронавируса.
+                            Компании используют эту
                             платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                     </a>
                 </li>
                 <li><a>
                         <img src="./images/portfolio/work9.png" width="380" alt=" Growing Business">
-                        <h2>Growing Business</h2>
+                        <h2 class="project">Growing Business</h2>
                         <p class="work">Приложение</p>
-                        <p>Технокряк это современная площадка распространения коронавируса. Компании используют эту
+                        <p class="project-descr">Технокряк это современная площадка распространения коронавируса.
+                            Компании используют эту
                             платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                     </a>
                 </li>

@@ -11,6 +11,23 @@
 body {
     background-color: var(--primary-color-white);
     color: var(--basic-color);
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0.03em;
+}
+
+ul{
+    list-style-type: none;
+}
+
+nav li,
+.header-contact{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 a {
@@ -36,6 +53,41 @@ p{
 
 h1{
     color: var(--primary-color-white);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+h3{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+
+}
+
+.advantages{
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.name{
+    font-weight: 500;
+}
+
+.name-description{
+    font-size: 16px;
+    line-height: 1.19;
 }
 
 .footer-color{
@@ -44,10 +96,19 @@ h1{
 
 .copyrite{
     color: var(--footer-copiright);
+
+    font-size: 12px;
+    line-height: 2;
+    text-align: center;
 }
 
 .footer-address{
     color: var(--primary-color-white);
+}
+
+.footer-contact{
+    font-size: 14px;
+    line-height: 1.71;
 }
 
 b{
@@ -57,6 +118,12 @@ b{
 .button{
     color: var(--primary-color-white);
     background-color: var(--accent-color);
+
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 
 .button:hover{
