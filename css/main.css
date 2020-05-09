@@ -119,6 +119,7 @@ b{
     color: var(--primary-color-white);
     background-color: var(--accent-color);
 
+    font-family: inherit;
     font-weight: bold;
     font-size: 16px;
     line-height: 1.87;
